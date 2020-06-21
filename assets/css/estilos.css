@@ -1,0 +1,97 @@
+body{
+    margin:0;
+    background: #000046;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+/*bt modifications*/
+.row{
+    justify-content: center;
+}
+/*Cacluladora*/
+.container{
+    margin-top: 5em;
+}
+.contentcal{
+    display:block;
+    background: #545b62;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.25);
+    border-radius:5px;
+}
+.tablecal{
+    display: flex;  
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.25);
+    border-radius:5px;
+    border:1px solid gray;
+}
+#inputcalc, #inputcalc2{
+    color:#64c564;
+    background: black;
+    text-transform: uppercase;
+    display: block;
+    font-family: 'Staatliches', cursive;
+    font-size:1.5em;
+}
+.numberscal{
+    background-color: gray;
+    color:white;
+}
+.operatorscal{
+    background-color: #9e9e9ec4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:#01a577;
+    font-weight: bold;
+}
+.entercal{
+    display:flex;
+    justify-content: flex-end;
+}
+.rowcal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rowcal2{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+.columncal0, .columncal, .columncal2, .columncal3{
+    display: inline-block;
+    text-align: center;
+    padding: 1em;
+    min-width: 4em;
+    border:1px solid#504e4ec4;
+    cursor: pointer;
+    border-radius:10px;
+    margin:5px;
+    background-color: #d0d0d0c4; 
+    font-size: 1em;
+    font-family: 'Nunito', sans-serif;
+}
+.columncal0{
+    color:red;
+}
+.columncal3{
+    color:blue;
+}
+.columncal0:hover, .columncal:hover, .columncal2:hover, .columncal3:hover{
+    background: rgba(0,0,0,0.25);
+    font-weight: bold;
+}
+/*foot*/
+.pie{
+    position: fixed;
+    bottom: 0;
+    right: 10px;;
+    display:flex !important;
+    justify-content: flex-end;
+}
+.paragraph{
+    color:white;
+    font-family: 'Nunito', sans-serif;
+}

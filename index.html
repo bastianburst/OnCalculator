@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Sebastian Gallego - Full Stack Web Developer" />
+    <title>Online calculator</title>
+    <link rel="icon" type="image/svg" href="assets/img/calculator.svg" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/estilos.css" />
+    <link rel="stylesheet" href="assets/css/hover-min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Staatliches&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="animate__animated animate__bounce">
+                <div class="contentcal">
+                    <div class="tablecal">
+
+                        <div class="numberscal">
+                            <div class="inputcal">
+                                <input type="text" id="inputcalc" name="inputcalc" value="0" readonly="readonly" />
+                                <input type="text" id="inputcalc2" name="inputcalc2" value="" readonly="readonly" />
+                            </div>
+                            <div class="rowcal">
+                                <div class="columncal0 hvr-grow">C</div>
+                            </div>
+                            <div class="rowcal">
+                                <div id="1" class="columncal hvr-grow">1</div>
+                                <div id="2" class="columncal hvr-grow">2</div>
+                                <div id="3" class="columncal hvr-grow">3</div>
+                            </div>
+                            <div class="rowcal">
+                                <div id="4" class="columncal hvr-grow">4</div>
+                                <div id="5" class="columncal hvr-grow">5</div>
+                                <div id="6" class="columncal hvr-grow">6</div>
+                            </div>
+                            <div class="rowcal">
+                                <div id="7" class="columncal hvr-grow">7</div>
+                                <div id="8" class="columncal hvr-grow">8</div>
+                                <div id="9" class="columncal hvr-grow">9</div>
+                            </div>
+                            <div class="rowcal">
+                                <div id="0" class="columncal hvr-grow">0</div>
+                                <div id="point" class="columncal hvr-grow">.</div>
+                            </div>
+                        </div>
+                        <div class="operatorscal">
+                            <div class="rowcal2">
+                                <div id="/" class="columncal2 hvr-grow">/</div>
+                                <div id="*" class="columncal2 hvr-grow">*</div>
+                                <div id="-" class="columncal2 hvr-grow">-</div>
+                                <div id="+" class="columncal2 hvr-grow">+</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="entercal">
+                        <div id="intro" class="columncal3 hvr-grow">Intro</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="pie">
+        <p class="paragraph">
+            Sebastian Gallego - Full Stack Web Developer
+        </p>
+    </footer>
+
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
